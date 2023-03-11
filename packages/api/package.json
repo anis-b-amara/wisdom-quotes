@@ -1,0 +1,30 @@
+{
+  "name": "api",
+  "version": "0.0.0",
+  "description": "Wisdom Quote backend",
+  "keywords": [
+    "wisdomn",
+    "quotes",
+    "api",
+    "express",
+    "postgres"
+  ],
+  "author": "Anis Ben Amara <anis.ben.amara89@gmail.com>",
+  "homepage": "https://github.com/anis-b-amara/wisdom-quotes#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anis-b-amara/wisdom-quotes.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/api.test.js",
+    "dev": "node index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/anis-b-amara/wisdom-quotes/issues"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
